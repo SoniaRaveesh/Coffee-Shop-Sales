@@ -3,56 +3,60 @@
 Transaction records for Maven Roasters, a fictitious coffee shop operating out of three NYC locations. Dataset includes the transaction date, timestamp and location, along with product-level details.
 
 Recommended Analysis
-How have Maven Roasters sales trended over time?
 
-Which days of the week tend to be busiest, and why do you think that's the case?
+1) How have Maven Roasters sales trended over time?
 
-Which products are sold most and least often? Which drive the most revenue for the business
+2) Which days of the week tend to be busiest, and why do you think that's the case?
+
+3) Which products are sold most and least often? Which drive the most revenue for the business
 
 
-transaction_id
+Data Fields
+
+
+1. transaction_id:
 
 Unique sequential ID representing an individual transaction
 
-transaction_date
+2. transaction_date:
 
 Date of the transaction (MM/DD/YY)
 
-transaction_time
+3. transaction_time:
 
 Timestamp of the transaction (HH:MM:SS)
 
-transaction_qty
+4. transaction_qty:
 
 Quantity of items sold
 
-store_id
+5. store_id:
 
 Unique ID of the coffee shop where the transaction took place
 
-store_location
+6. store_location:
 
 
 Location of the coffee shop where the transaction took place
 
-product_id
+7. product_id:
 
 Unique ID of the product sold
 
-unit_price
+8. unit_price:
 
 Retail price of the product sold
 
-product_category
+9. product_category:
 
 Description of the product category
 
 
-product_type
+10. product_type:
 
 Description of the product type
 
-product_detail
+11. product_detail:
 
 Description of the product detail
 
